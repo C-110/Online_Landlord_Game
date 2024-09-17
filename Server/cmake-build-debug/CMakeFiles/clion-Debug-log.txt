@@ -1,0 +1,4 @@
+C:\Windows\system32\wsl.exe --distribution Ubuntu-18.04 --exec "/mnt/s/CLion/CLion 2024.1.4/bin/ttyfix" /bin/bash -c "export CLION_IDE=TRUE && export CMAKE_COLOR_DIAGNOSTICS=ON && export JETBRAINS_IDE=TRUE && cd /mnt/s/Online_LandlordGame/Server/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/s/Online_LandlordGame/Server -B /mnt/s/Online_LandlordGame/Server/cmake-build-debug"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/s/Online_LandlordGame/Server/cmake-build-debug

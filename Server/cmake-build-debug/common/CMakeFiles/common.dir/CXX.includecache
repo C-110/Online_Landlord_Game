@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/s/Online_LandlordGame/Server/common/JsonParse.cpp
+fstream
+-
+cassert
+-
+JsonParse.h
+/mnt/s/Online_LandlordGame/Server/common/JsonParse.h
+
+/mnt/s/Online_LandlordGame/Server/common/JsonParse.h
+iostream
+-
+string
+-
+json/value.h
+-
+json/json.h
+-
+memory
+-
+

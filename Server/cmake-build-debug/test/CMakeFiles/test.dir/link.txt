@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtest.a  CMakeFiles/test.dir/Address.pb.cc.o CMakeFiles/test.dir/Person.pb.cc.o CMakeFiles/test.dir/myTest.cpp.o
+/usr/bin/ranlib libtest.a

@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Server"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\common\;CMake Files\http\;CMake Files\reactor\;CMake Files\tcp\;CMake Files\thread\;CMake Files\serialize\;CMake Files\crypto\;CMake Files\game\;CMake Files\database\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Server">
+				<Option output="/mnt/s/Online_LandlordGame/Server/bin/Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Server/fast">
+				<Option output="/mnt/s/Online_LandlordGame/Server/bin/Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common">
+				<Option output="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/common/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 common"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common/fast">
+				<Option output="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/common/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 common/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http">
+				<Option output="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/http/libhttp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/http"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 http"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http/fast">
+				<Option output="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/http/libhttp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/http"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 http/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reactor">
+				<Option output="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/reactor/libreactor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/reactor"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/reactor/Makefile&quot;  VERBOSE=1 reactor"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/reactor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/reactor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/reactor/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reactor/fast">
+				<Option output="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/reactor/libreactor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/reactor"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/reactor/Makefile&quot;  VERBOSE=1 reactor/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/reactor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/reactor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/reactor/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp">
+				<Option output="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/tcp/libtcp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/tcp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/tcp/Makefile&quot;  VERBOSE=1 tcp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/tcp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp/fast">
+				<Option output="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/tcp/libtcp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/tcp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/tcp/Makefile&quot;  VERBOSE=1 tcp/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/tcp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread">
+				<Option output="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/thread/libthread.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/thread"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 thread"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread/fast">
+				<Option output="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/thread/libthread.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/thread"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 thread/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serialize">
+				<Option output="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/serialize/libserialize.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/serialize"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/serialize/Makefile&quot;  VERBOSE=1 serialize"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/serialize/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/serialize/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/serialize/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serialize/fast">
+				<Option output="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/serialize/libserialize.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/serialize"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/serialize/Makefile&quot;  VERBOSE=1 serialize/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/serialize/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/serialize/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/serialize/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mycrypto">
+				<Option output="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/crypto/libmycrypto.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/crypto"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 mycrypto"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mycrypto/fast">
+				<Option output="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/crypto/libmycrypto.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/crypto"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 mycrypto/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game">
+				<Option output="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/game/libgame.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/game"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/game/Makefile&quot;  VERBOSE=1 game"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/game/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/game/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/game/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game/fast">
+				<Option output="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/game/libgame.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/game"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/game/Makefile&quot;  VERBOSE=1 game/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/game/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/game/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/game/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="database">
+				<Option output="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/database/libdatabase.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/database"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/database/Makefile&quot;  VERBOSE=1 database"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/database/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/database/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/database/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="database/fast">
+				<Option output="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/database/libdatabase.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/database"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/database/Makefile&quot;  VERBOSE=1 database/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/database/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/database/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/database/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/test/libtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/test/libtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/Online_LandlordGame/Server/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/common"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/http"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/reactor"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/tcp"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/thread"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/serialize"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/crypto"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/game"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/mnt/s/Online_LandlordGame/Server/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/s/Online_LandlordGame/Server/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/common/Buffer.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/common/Buffer.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/common/Channel.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/common/Channel.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/common/JsonParse.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/common/JsonParse.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/crypto/AesCrypto.cpp">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/crypto/AesCrypto.h">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/crypto/Base64.cpp">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/crypto/Base64.h">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/crypto/Hash.cpp">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/crypto/Hash.h">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/crypto/RsaCrypto.cpp">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/crypto/RsaCrypto.h">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/database/MySqlConn.cpp">
+			<Option target="database"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/database/MySqlConn.h">
+			<Option target="database"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/game/Communication.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/game/Communication.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/game/Room.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/game/Room.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/game/RoomList.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/game/RoomList.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/http/HttpRequest.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/http/HttpRequest.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/http/Httpresponse.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/http/Httpresponse.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/main.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/reactor/Dispatcher.cpp">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/reactor/Dispatcher.h">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/reactor/EpollDispatcher.cpp">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/reactor/EpollDispatcher.h">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/reactor/EventLoop.cpp">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/reactor/EventLoop.h">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/reactor/PollDispatcher.cpp">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/reactor/PollDispatcher.h">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/reactor/SelectDispatcher.cpp">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/reactor/SelectDispatcher.h">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/serialize/Codec.cpp">
+			<Option target="serialize"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/serialize/Codec.h">
+			<Option target="serialize"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/serialize/infomation.pb.cc">
+			<Option target="serialize"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/tcp/TcpConnection.cpp">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/tcp/TcpConnection.h">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/tcp/TcpServer.cpp">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/tcp/TcpServer.h">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/test/Address.pb.cc">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/test/Person.pb.cc">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/test/myTest.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/test/myTest.h">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/thread/ThreadPool.cpp">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/thread/ThreadPool.h">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/thread/WorkerThread.cpp">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/thread/WorkerThread.h">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/http/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\http\"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/reactor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\reactor\"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/tcp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tcp\"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/thread/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thread\"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/serialize/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\serialize\"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/crypto/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\crypto\"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/database/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\database\"/>
+		</Unit>
+		<Unit filename="/mnt/s/Online_LandlordGame/Server/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

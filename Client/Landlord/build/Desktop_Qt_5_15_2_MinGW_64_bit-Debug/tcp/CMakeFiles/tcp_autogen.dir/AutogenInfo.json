@@ -1,0 +1,104 @@
+{
+	"BUILD_DIR" : "S:/Online_LandlordGame/Client/Landlord/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/tcp/tcp_autogen",
+	"CMAKE_BINARY_DIR" : "S:/Online_LandlordGame/Client/Landlord/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "S:/Online_LandlordGame/Client/Landlord/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/tcp",
+	"CMAKE_CURRENT_SOURCE_DIR" : "S:/Online_LandlordGame/Client/Landlord/tcp",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"S:/Online_LandlordGame/Client/Landlord/tcp/CMakeLists.txt",
+		"S:/Online_LandlordGame/Client/Landlord/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
+		"S:/Online_LandlordGame/Client/Landlord/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/3.27.0-rc1/CMakeCCompiler.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCInformation.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/GNU-C.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/GNU.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "S:/Online_LandlordGame/Client/Landlord",
+	"DEP_FILE" : "S:/Online_LandlordGame/Client/Landlord/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/tcp/tcp_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "tcp_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"S:/Online_LandlordGame/Client/Landlord/tcp/tcpsocket.h",
+			"MU",
+			"EWIEGA46WW/moc_tcpsocket.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "S:/Online_LandlordGame/Client/Landlord/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/tcp/tcp_autogen/include",
+	"MOC_COMPILATION_FILE" : "S:/Online_LandlordGame/Client/Landlord/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/tcp/tcp_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"S:/Online_LandlordGame/Client/Landlord/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/tcp",
+		"S:/Online_LandlordGame/Client/Landlord/tcp",
+		"S:/Online_LandlordGame/Client/Landlord/card",
+		"S:/Online_LandlordGame/Client/Landlord/windows",
+		"S:/Online_LandlordGame/Client/Landlord/control",
+		"S:/Online_LandlordGame/Client/Landlord/player",
+		"S:/Online_LandlordGame/Client/Landlord/strategy",
+		"S:/Online_LandlordGame/Client/Landlord/thread",
+		"S:/Online_LandlordGame/Client/Landlord/serialize",
+		"S:/Online_LandlordGame/Client/Landlord/crypto",
+		"S:/Openssl_Win64/include",
+		"C:/Protobuf/include",
+		"S:/Qt/5.15.2/mingw81_64/include",
+		"S:/Qt/5.15.2/mingw81_64/include/QtCore",
+		"S:/Qt/5.15.2/mingw81_64/mkspecs/win32-g++",
+		"S:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
+		"S:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32",
+		"S:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward",
+		"S:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+		"S:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
+		"S:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"S:/Qt/Tools/mingw810_64/bin/g++.exe",
+		"-std=gnu++17",
+		"-dM",
+		"-E",
+		"-c",
+		"C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "S:/Online_LandlordGame/Client/Landlord/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/tcp/tcp_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "S:/Online_LandlordGame/Client/Landlord/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/tcp/CMakeFiles/tcp_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "S:/Qt/5.15.2/mingw81_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "S:/Qt/5.15.2/mingw81_64/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "S:/Online_LandlordGame/Client/Landlord/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/tcp/CMakeFiles/tcp_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"S:/Online_LandlordGame/Client/Landlord/tcp/tcpsocket.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

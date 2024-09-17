@@ -1,0 +1,415 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "common",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "common",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "http",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "http",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "reactor",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "reactor",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "tcp",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "tcp",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "thread",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "thread",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "serialize",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "serialize",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "crypto",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "crypto",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "game",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "game",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "database",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "database",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Server",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "http",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "reactor",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "tcp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "thread",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "serialize",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "mycrypto",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "game",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "database",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "Test",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Server-Debug-4902c66e377c7dc8d024.json",
+					"name" : "Server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "common::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-common-Debug-5bcc5ad8f19f467a4fa7.json",
+					"name" : "common",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "database::@c44ac6e9bb193d64d56d",
+					"jsonFile" : "target-database-Debug-64d9b0dd2f07775f8831.json",
+					"name" : "database",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "game::@0c53ff3c4131f9152fd3",
+					"jsonFile" : "target-game-Debug-1cc68b8bcd60b2168f68.json",
+					"name" : "game",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "http::@bd0a5d6c0bd9e6f494f8",
+					"jsonFile" : "target-http-Debug-9989163e6ff5a12fec30.json",
+					"name" : "http",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "mycrypto::@1d62b725e69adc70ad4a",
+					"jsonFile" : "target-mycrypto-Debug-6fed9a4c810dff070b17.json",
+					"name" : "mycrypto",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "reactor::@9b10b1f55575ced20a91",
+					"jsonFile" : "target-reactor-Debug-2e4aa6a88f8e743d0d2b.json",
+					"name" : "reactor",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "serialize::@f3c3b027229a9a158e24",
+					"jsonFile" : "target-serialize-Debug-1de03288bcac6914447f.json",
+					"name" : "serialize",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "tcp::@8966b6d2f8df3a1515e1",
+					"jsonFile" : "target-tcp-Debug-41fc430cbd177b08b03f.json",
+					"name" : "tcp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test-Debug-2084914979f49ae6393d.json",
+					"name" : "test",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "thread::@1994991b6c1bd8685afc",
+					"jsonFile" : "target-thread-Debug-2038a6869e7eb6798189.json",
+					"name" : "thread",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/s/Online_LandlordGame/Server/cmake-build-debug",
+		"source" : "/mnt/s/Online_LandlordGame/Server"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
